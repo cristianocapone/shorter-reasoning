@@ -1,13 +1,16 @@
-# Language models gain from shorter reasoning mostly by finishing in time
+# Does shorter reasoning mean better reasoning?
 
 Code, pre-registrations, summary data and figure scripts for the manuscript
 
-> C. Capone, *Language models gain from shorter reasoning mostly by finishing in time* (submitted, 2026).
+> C. Capone, *Does shorter reasoning mean better reasoning?* (submitted, 2026).
 
 Under a limit on generated tokens, an accuracy gain from shorter reasoning can mean that a model reasons better, or
 only that more of its attempts finish before the limit. A forced answer at the limit separates the two. The paper
 tests this on four published length-reduction methods and on a controlled self-training experiment (fine-tuning on
-the shortest, a random or the longest of a model's own verified solutions), with three pre-registered analyses.
+the shortest, a random or the longest of a model's own verified solutions), with three pre-registered analyses, and
+maps how each method shortens reasoning (rescaling the length distribution, cutting its tail, or changing the path).
+In short: shorter reasoning reached answers sooner and at lower cost, but not better answers, unless the training
+itself improved them.
 
 ## Layout
 
@@ -34,8 +37,10 @@ deviation.
 
 ## Reproducing
 
-- Figures: `python paper_brevity/make_concept_fig.py`, `make_cover_nc2.py`, `make_fig_cap.py`, `make_fig_ext.py`
-  (each reads `paper_brevity/data/`).
+- Figures: `python paper_brevity/make_fig_split.py` (Fig. 1), `make_fig_mechanisms.py` (Fig. 2), `make_fig_ext.py`
+  (Fig. 3), `make_cover_nc2.py` (Fig. 4), `make_fig_cap.py` (Fig. 5); Fig. 1 and 2 also read the per-sample records,
+  which are available on request.
+- Speed-only prediction of the forced-answer gains (Supplementary Note 8): `synth/natcomm_speed_only.py`.
 - Manuscript: in `paper_brevity/natcomm/`, compile `si_v2.tex` first, then `main_v2.tex` (pdflatex + bibtex).
 - Analyses: the analysis scripts above run on the per-sample records (`runs_synth/agent_<tag>/`), which are deposited
   separately with the generations (see the Data availability statement of the manuscript).

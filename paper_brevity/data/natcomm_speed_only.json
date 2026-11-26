@@ -1,0 +1,170 @@
+[
+ {
+  "method": "arora_a02",
+  "ref": "r1base",
+  "budget": 2048,
+  "lam": 0.456,
+  "observed": 4.45,
+  "speed_only": 5.17
+ },
+ {
+  "method": "arora_a02",
+  "ref": "r1base",
+  "budget": 4096,
+  "lam": 0.456,
+  "observed": 2.1,
+  "speed_only": 2.56
+ },
+ {
+  "method": "arora_a02",
+  "ref": "r1base",
+  "budget": 8192,
+  "lam": 0.456,
+  "observed": 0.65,
+  "speed_only": 0.85
+ },
+ {
+  "method": "arora_a02",
+  "ref": "r1base",
+  "budget": 16384,
+  "lam": 0.456,
+  "observed": -0.05,
+  "speed_only": 0.0
+ },
+ {
+  "method": "thinkprune",
+  "ref": "r1base",
+  "budget": 2048,
+  "lam": 0.452,
+  "observed": 6.05,
+  "speed_only": 5.21
+ },
+ {
+  "method": "thinkprune",
+  "ref": "r1base",
+  "budget": 4096,
+  "lam": 0.452,
+  "observed": 3.1,
+  "speed_only": 2.57
+ },
+ {
+  "method": "thinkprune",
+  "ref": "r1base",
+  "budget": 8192,
+  "lam": 0.452,
+  "observed": 1.25,
+  "speed_only": 0.85
+ },
+ {
+  "method": "thinkprune",
+  "ref": "r1base",
+  "budget": 16384,
+  "lam": 0.452,
+  "observed": 0.4,
+  "speed_only": 0.0
+ },
+ {
+  "method": "dler",
+  "ref": "r1base",
+  "budget": 2048,
+  "lam": 0.551,
+  "observed": 8.9,
+  "speed_only": 4.17
+ },
+ {
+  "method": "dler",
+  "ref": "r1base",
+  "budget": 4096,
+  "lam": 0.551,
+  "observed": 6.85,
+  "speed_only": 2.11
+ },
+ {
+  "method": "dler",
+  "ref": "r1base",
+  "budget": 8192,
+  "lam": 0.551,
+  "observed": 4.4,
+  "speed_only": 0.73
+ },
+ {
+  "method": "dler",
+  "ref": "r1base",
+  "budget": 16384,
+  "lam": 0.551,
+  "observed": 3.5,
+  "speed_only": 0.0
+ },
+ {
+  "method": "l1max4k",
+  "ref": "dsr",
+  "budget": 2048,
+  "lam": 0.629,
+  "observed": 0.75,
+  "speed_only": 3.65
+ },
+ {
+  "method": "l1max4k",
+  "ref": "dsr",
+  "budget": 4096,
+  "lam": 0.629,
+  "observed": -4.1,
+  "speed_only": 1.71
+ },
+ {
+  "method": "l1max4k",
+  "ref": "dsr",
+  "budget": 8192,
+  "lam": 0.629,
+  "observed": -6.65,
+  "speed_only": 0.1
+ },
+ {
+  "method": "l1max4k",
+  "ref": "dsr",
+  "budget": 16384,
+  "lam": 0.629,
+  "observed": -6.8,
+  "speed_only": 0.0
+ },
+ {
+  "method": "S",
+  "ref": "R (4,500 problems)",
+  "budget": 4096,
+  "lam": 0.955,
+  "observed": 0.53,
+  "speed_only": 0.33
+ },
+ {
+  "method": "S",
+  "ref": "R (4,500 problems)",
+  "budget": 8192,
+  "lam": 0.946,
+  "observed": 0.34,
+  "speed_only": 0.4
+ },
+ {
+  "method": "S",
+  "ref": "untouched (MATH-500)",
+  "budget": 4096,
+  "lam": 0.939,
+  "observed": 0.0,
+  "speed_only": 0.48
+ },
+ {
+  "method": "S",
+  "ref": "untouched (MATH-500)",
+  "budget": 8192,
+  "lam": 0.939,
+  "observed": 0.48,
+  "speed_only": 0.53
+ },
+ {
+  "method": "S",
+  "ref": "untouched (MATH-500)",
+  "budget": 16384,
+  "lam": 0.939,
+  "observed": 0.28,
+  "speed_only": 0.23
+ }
+]
