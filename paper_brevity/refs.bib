@@ -1,0 +1,1595 @@
+% refs.bib -- single bibliography of the brevity paper (paper_brevity/). Merged 2026-11-02 (lit-finish task).
+% Used by arc/main.tex and natcomm/main.tex (\bibliography{../refs}). nmi/main.tex loads nmi/refs_nmi.bib, which
+% carries the same corrections in Nature style; every key nmi/main.tex cites is also here.
+% Sources: the previous refs.bib; natcomm/lit/new_refs.bib (PART 3 = verified corrections of flawed refs.bib
+% entries under the same keys); natcomm/lit/sweep_refs.bib; nmi-only keys of nmi/refs_nmi.bib; five arXiv
+% preprints first proposed in natcomm/lit/positioning.md. Pre-merge copies: session scratchpad, backup_bibmerge/.
+% Every decision is logged in natcomm/lit/bib_merge_log.md.
+% Conventions, as in the previous refs.bib: arXiv-only works as journal = arXiv preprint arXiv:ID; most published
+% papers keep their arXiv identifier in note. Author lists are complete where the verified record was
+% transcribed in full (naturemag.bst prints the first author and et al. for six or more names; unsrtnat prints all).
+% A comment line "src:" above each entry names its source file. Comment lines must not contain the at-sign.
+
+% ==============================================================================================================
+% GROUP 1 -- cited by arc/main.tex, natcomm/main.tex or nmi/main.tex (as of 2026-11-02)
+% ==============================================================================================================
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% merge: set note
+% FIX: the paper was retitled and published at ICML 2025 with 8 authors (old entry: v1 title, 6 authors).
+@inproceedings{akyurek2024ttt,
+  author={Aky{\"u}rek, Ekin and Damani, Mehul and Zweiger, Adam and Qiu, Linlu and Guo, Han and Pari, Jyothish and Kim, Yoon and Andreas, Jacob},
+  title={The Surprising Effectiveness of Test-Time Training for Few-Shot Learning},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={942--963},
+  publisher={PMLR},
+  year={2025},
+  note={arXiv:2411.07279}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: wrong author. arXiv and the PDF list four named authors, not "ARC Prize Foundation".
+@article{arcprize2025report,
+  author={Chollet, Fran{\c{c}}ois and Knoop, Mike and Kamradt, Gregory and Landers, Bryan},
+  title={{ARC} Prize 2025: Technical Report},
+  journal={arXiv preprint arXiv:2601.10904},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% merge: set note
+% FIX: published at ICML 2025 under a CHANGED TITLE ("... Long Reasoning Models", not "... o1-Like
+% LLMs"); author list was abbreviated. PMLR 267:9487--9499. Key kept for compatibility.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 14 names; naturemag prints "First, A. et al." either way. Full list (14):
+% Chen, Xingyu and Xu, Jiahao and Liang, Tian and He, Zhiwei and Pang, Jianhui and Yu, Dian and Song, Linfeng and Liu, Qiuzhi and Zhou, Mengfei and Zhang, Zhuosheng and Wang, Rui and Tu, Zhaopeng and Mi, Haitao and Yu, Dong
+@inproceedings{chen2024overthinking,
+  author={Chen, Xingyu and others},
+  title={Do {NOT} Think That Much for 2+3=? {O}n the Overthinking of Long Reasoning Models},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={9487--9499},
+  publisher={PMLR},
+  year={2025},
+  note={arXiv:2412.21187}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{chollet2019measure,
+  author={Chollet, Fran{\c{c}}ois},
+  title={On the Measure of Intelligence},
+  journal={arXiv preprint arXiv:1911.01547},
+  year={2019}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{chollet2025arcagi2,
+  author={Chollet, Fran{\c{c}}ois and Knoop, Mike and Kamradt, Gregory and Landers, Bryan and Pinkard, Henry},
+  title={{ARC-AGI-2}: A New Challenge for Frontier {AI} Reasoning Systems},
+  journal={arXiv preprint arXiv:2505.11831},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated; full 16 authors from arXiv. No published venue found.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 16 names; naturemag prints "First, A. et al." either way. Full list (16):
+% Cuadron, Alejandro and Li, Dacheng and Ma, Wenjie and Wang, Xingyao and Wang, Yichuan and Zhuang, Siyuan and Liu, Shu and Schroeder, Luis Gaspar and Xia, Tian and Mao, Huanzhi and Thumiger, Nicholas and Desai, Aditya and Stoica, Ion and Klimovic, Ana and Neubig, Graham and Gonzalez, Joseph E.
+@article{cuadron2025overthinking,
+  author={Cuadron, Alejandro and others},
+  title={The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks},
+  journal={arXiv preprint arXiv:2502.08235},
+  year={2025}}
+
+% src: old refs.bib -- unchanged
+@misc{dalezhong2026nvarcplus,
+  author={{dalezhong}},
+  title={\texttt{arc-agi2-nvarc-plus-ckpt} ({NVARC+} v2 with submission checkpointing)},
+  howpublished={Kaggle notebook \url{https://www.kaggle.com/code/dalezhong/arc-agi2-nvarc-plus-ckpt}},
+  year={2026}}
+
+% src: alias of guo2025deepseekr1 (same work). Since 2026-11-02 no manuscript cites this key: arc/main.tex,
+% natcomm/main.tex and nmi/main.tex cite guo2025deepseekr1. Left in place, not deleted (bib_merge_log.md, item 3).
+@article{deepseek2025r1,
+  author={Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Wang, Peiyi and others},
+  title={{DeepSeek-R1} incentivizes reasoning in {LLMs} through reinforcement learning},
+  journal={Nature},
+  volume={645},
+  pages={633--638},
+  year={2025},
+  doi={10.1038/s41586-025-09422-z}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@book{efron1993bootstrap,
+  author={Efron, Bradley and Tibshirani, Robert J.},
+  title={An Introduction to the Bootstrap},
+  publisher={Chapman \& Hall},
+  address={New York},
+  year={1993}}
+
+% src: old refs.bib -- unchanged
+@misc{franzen2024architects,
+  author={Franzen, Daniel and Disselhoff, Jan and Hartmann, David},
+  title={The {LLM} {ARChitect}: Solving {ARC-AGI} Is a Matter of Perspective},
+  howpublished={ARC Prize 2024 technical report},
+  year={2024}}
+
+% src: natcomm/lit/sweep_refs.bib -- sweep adds number 1-2 (Crossref issue for doi 10.1023/A:1006314320276); otherwise identical to nmi
+% verified: Crossref record for doi:10.1023/A:1006314320276
+@article{gomes2000heavy,
+  author={Gomes, Carla P. and Selman, Bart and Crato, Nuno and Kautz, Henry},
+  title={Heavy-Tailed Phenomena in Satisfiability and Constraint Satisfaction Problems},
+  journal={Journal of Automated Reasoning},
+  volume={24},
+  number={1-2},
+  pages={67--100},
+  year={2000},
+  doi={10.1023/A:1006314320276}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{grattafiori2024llama3,
+  author={Grattafiori, Aaron and others},
+  title={The {Llama} 3 Herd of Models},
+  journal={arXiv preprint arXiv:2407.21783},
+  year={2024}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: a blog post, not a journal article; date and URL verified (17 June 2024).
+@misc{greenblatt2024arc,
+  author={Greenblatt, Ryan},
+  title={Getting 50\% ({SoTA}) on {ARC-AGI} with {GPT-4o}},
+  howpublished={Redwood Research blog, 17 June 2024, \url{https://redwoodresearch.substack.com/p/getting-50-sota-on-arc-agi-with-gpt}},
+  year={2024}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated ("and others"); full 14 authors from arXiv. No published venue found.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 14 names; naturemag prints "First, A. et al." either way. Full list (14):
+% Gulcehre, Caglar and Paine, Tom Le and Srinivasan, Srivatsan and Konyushkova, Ksenia and Weerts, Lotte and Sharma, Abhishek and Siddhant, Aditya and Ahern, Alex and Wang, Miaosen and Gu, Chenjie and Macherey, Wolfgang and Doucet, Arnaud and Firat, Orhan and de Freitas, Nando
+@article{gulcehre2023rest,
+  author={Gulcehre, Caglar and others},
+  title={Reinforced Self-Training ({ReST}) for Language Modeling},
+  journal={arXiv preprint arXiv:2308.08998},
+  year={2023}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{guo2025deepseekr1,
+  author={Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Wang, Peiyi and others},
+  title={{DeepSeek-R1} incentivizes reasoning in {LLMs} through reinforcement learning},
+  journal={Nature},
+  volume={645},
+  pages={633--638},
+  year={2025},
+  doi={10.1038/s41586-025-09422-z}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{hassid2025overthink,
+  author={Hassid, Michael and Synnaeve, Gabriel and Adi, Yossi and Schwartz, Roy},
+  title={Don't Overthink it. {P}referring Shorter Thinking Chains for Improved {LLM} Reasoning},
+  journal={arXiv preprint arXiv:2505.17813},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated; full 11 authors and proceedings name from the NeurIPS D&B site.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 11 names; naturemag prints "First, A. et al." either way. Full list (11):
+% Hendrycks, Dan and Basart, Steven and Kadavath, Saurav and Mazeika, Mantas and Arora, Akul and Guo, Ethan and Burns, Collin and Puranik, Samir and He, Horace and Song, Dawn and Steinhardt, Jacob
+@inproceedings{hendrycks2021apps,
+  author={Hendrycks, Dan and others},
+  title={Measuring Coding Challenge Competence With {APPS}},
+  booktitle={Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  volume={1},
+  year={2021}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@inproceedings{hendrycks2021math,
+  author={Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob},
+  title={Measuring Mathematical Problem Solving With the {MATH} Dataset},
+  booktitle={NeurIPS Datasets and Benchmarks},
+  year={2021}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: now published in TMLR (accepted 2 February 2026; OpenReview V51gPu1uQD); year 2026.
+@article{hou2025thinkprune,
+  author={Hou, Bairu and Zhang, Yang and Ji, Jiabao and Liu, Yujian and Qian, Kaizhi and Andreas, Jacob and Chang, Shiyu},
+  title={{ThinkPrune}: Pruning Long Chain-of-Thought of {LLMs} via Reinforcement Learning},
+  journal={Transactions on Machine Learning Research},
+  year={2026},
+  note={arXiv:2504.01296}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@inproceedings{hu2022lora,
+  author={Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  title={{LoRA}: Low-Rank Adaptation of Large Language Models},
+  booktitle={International Conference on Learning Representations},
+  year={2022}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{kimi2025k15,
+  author={{Kimi Team}},
+  title={Kimi k1.5: Scaling Reinforcement Learning with {LLMs}},
+  journal={arXiv preprint arXiv:2501.12599},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated; full 9 authors, full proceedings title, pages and DOI from Crossref.
+@inproceedings{kwon2023vllm,
+  author={Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E. and Zhang, Hao and Stoica, Ion},
+  title={Efficient Memory Management for Large Language Model Serving with {PagedAttention}},
+  booktitle={Proceedings of the 29th Symposium on Operating Systems Principles},
+  pages={611--626},
+  publisher={ACM},
+  year={2023},
+  doi={10.1145/3600006.3613165}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: published at ICLR 2025; the ICLR record lists 11 authors (arXiv lists 14). Old entry: abbreviated, arXiv 2024.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 11 names; naturemag prints "First, A. et al." either way. Full list (11):
+% Li, Wen-Ding and Hu, Keya and Larsen, Carter and Wu, Yuqing and Alford, Simon and Woo, Caleb and Dunn, Spencer M. and Tang, Hao and Zheng, Wei-Long and Pu, Yewen and Ellis, Kevin
+@inproceedings{li2024combining,
+  author={Li, Wen-Ding and others},
+  title={Combining Induction and Transduction for Abstract Reasoning},
+  booktitle={International Conference on Learning Representations},
+  year={2025},
+  note={arXiv:2411.02272}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated; full 10 authors as listed on the ICLR 2024 record (OpenReview
+% v8L0pN6EOi), which spells "Yuri Burda" and "Harrison Edwards" (arXiv: "Yura Burda", "Harri Edwards").
+@inproceedings{lightman2023verify,
+  author={Lightman, Hunter and Kosaraju, Vineet and Burda, Yuri and Edwards, Harrison and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl},
+  title={Let's Verify Step by Step},
+  booktitle={International Conference on Learning Representations},
+  year={2024}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{luby1993optimal,
+  author={Luby, Michael and Sinclair, Alistair and Zuckerman, David},
+  title={Optimal Speedup of {Las Vegas} Algorithms},
+  journal={Information Processing Letters},
+  volume={47},
+  number={4},
+  pages={173--180},
+  year={1993},
+  doi={10.1016/0020-0190(93)90029-9}}
+
+% src: old refs.bib -- unchanged
+@misc{luxluxshan2026nvarcplus,
+  author={{luxluxshan}},
+  title={\texttt{arc2-nvarc-v1}, version 2 ({NVARC+} v2, two pooled half-cost passes)},
+  howpublished={Kaggle notebook \url{https://www.kaggle.com/code/luxluxshan/arc2-nvarc-v1}},
+  year={2026}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{mattar2018prioritized,
+  author={Mattar, Marcelo G. and Daw, Nathaniel D.},
+  title={Prioritized memory access explains planning and hippocampal replay},
+  journal={Nature Neuroscience},
+  volume={21},
+  pages={1609--1617},
+  year={2018}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: author list abbreviated; full 10 authors from the ACL Anthology. Pages 20275--20321 and the
+% DOI are confirmed by the ACL Anthology (Crossref currently returns 20286--20332 for the same DOI).
+@inproceedings{muennighoff2025s1,
+  author={Muennighoff, Niklas and Yang, Zitong and Shi, Weijia and Li, Xiang Lisa and Fei-Fei, Li and Hajishirzi, Hannaneh and Zettlemoyer, Luke and Liang, Percy and Cand{\`e}s, Emmanuel and Hashimoto, Tatsunori},
+  title={s1: Simple Test-Time Scaling},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={20275--20321},
+  publisher={Association for Computational Linguistics},
+  year={2025},
+  doi={10.18653/v1/2025.emnlp-main.1025}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% merge: set note
+% COMPLETED: pages, publisher and DOI from the ACL Anthology (the old entry had none).
+@inproceedings{munkhbat2025concise,
+  author={Munkhbat, Tergel and Ho, Namgyu and Kim, Seo Hyun and Yang, Yongjin and Kim, Yujin and Yun, Se-Young},
+  title={Self-Training Elicits Concise Reasoning in Large Language Models},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+  pages={25127--25152},
+  publisher={Association for Computational Linguistics},
+  year={2025},
+  doi={10.18653/v1/2025.findings-acl.1289},
+  note={arXiv:2502.20122}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{olafsdottir2018replay,
+  author={{\'O}lafsd{\'o}ttir, H. Freyja and Bush, Daniel and Barry, Caswell},
+  title={The Role of Hippocampal Replay in Memory and Planning},
+  journal={Current Biology},
+  volume={28},
+  pages={R37--R50},
+  year={2018}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in new, sweep and nmi
+% NeurIPS 2025 poster (OpenReview jFaFCc5978). "AnytimeReasoner" in the reports.
+@inproceedings{qi2025anytime,
+  author={Qi, Penghui and Liu, Zichen and Pang, Tianyu and Du, Chao and Lee, Wee Sun and Lin, Min},
+  title={Optimizing Anytime Reasoning via Budget Relative Policy Optimization},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2505.13438}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@misc{qwen38card,
+  author={{Qwen Team}},
+  title={{Qwen3.8-27B}},
+  howpublished={Model card, \url{https://huggingface.co/Qwen/Qwen3.8-27B}},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% FIX: corporate author "Qwen Team" replaced by the 60 authors listed in the arXiv metadata
+% (naturemag prints "Yang, A. et al."). Keep the corporate form only if you prefer it on purpose.
+% 2026-11-02 (arc-figures): author list shortened to the first author + others, so that unsrtnat (arc/main.tex) prints
+% "et al." instead of all 60 names; naturemag prints "First, A. et al." either way. Full list (60):
+% Yang, An and Li, Anfeng and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Gao, Chang and Huang, Chengen and Lv, Chenxu and Zheng, Chujie and Liu, Dayiheng and Zhou, Fan and Huang, Fei and Hu, Feng and Ge, Hao and Wei, Haoran and Lin, Huan and Tang, Jialong and Yang, Jian and Tu, Jianhong and Zhang, Jianwei and Yang, Jianxin and Yang, Jiaxi and Zhou, Jing and Zhou, Jingren and Lin, Junyang and Dang, Kai and Bao, Keqin and Yang, Kexin and Yu, Le and Deng, Lianghao and Li, Mei and Xue, Mingfeng and Li, Mingze and Zhang, Pei and Wang, Peng and Zhu, Qin and Men, Rui and Gao, Ruize and Liu, Shixuan and Luo, Shuang and Li, Tianhao and Tang, Tianyi and Yin, Wenbiao and Ren, Xingzhang and Wang, Xinyu and Zhang, Xinyu and Ren, Xuancheng and Fan, Yang and Su, Yang and Zhang, Yichang and Zhang, Yinger and Wan, Yu and Liu, Yuqiong and Wang, Zekun and Cui, Zeyu and Zhang, Zhenru and Zhou, Zhipeng and Qiu, Zihan
+@article{qwen3report,
+  author={Yang, An and others},
+  title={Qwen3 Technical Report},
+  journal={arXiv preprint arXiv:2505.09388},
+  year={2025}}
+
+% src: nmi/refs_nmi.bib -- key cited by nmi/main.tex; identical to schaul2016per of new_refs.bib, whose arXiv note is added
+% merge: set note
+@inproceedings{schaul2016prioritized,
+  author={Schaul, Tom and Quan, John and Antonoglou, Ioannis and Silver, David},
+  title={Prioritized Experience Replay},
+  booktitle={International Conference on Learning Representations},
+  year={2016},
+  note={arXiv:1511.05952}}
+
+% src: natcomm/lit/new_refs.bib -- new spells "Ahmed Hassan Awadallah" as on the ICLR 2026 record (sweep: arXiv spelling "Ahmed Awadallah"); same as nmi
+% ICLR 2026 poster (OpenReview UKOqoULbZS); an earlier version appeared at the NeurIPS 2025 FoRLM workshop.
+@inproceedings{shrivastava2026gfpo,
+  author={Shrivastava, Vaishnavi and Awadallah, Ahmed Hassan and Balachandran, Vidhisha and Garg, Shivam and Behl, Harkirat and Papailiopoulos, Dimitris},
+  title={Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2508.09726}}
+
+% src: natcomm/lit/sweep_refs.bib -- content of sweep singh2024restem (TMLR 2024; first 10 of the 41 arXiv authors + others) under the key cited by nmi/main.tex
+% verified: arXiv:2312.06585 (2312.06585v4; first posted 2023-12-11); venue: arXiv comment + OpenReview: TMLR 2024
+@article{singh2024beyond,
+  author={Avi Singh and John D. Co-Reyes and Rishabh Agarwal and Ankesh Anand and Piyush Patil and Xavier Garcia and Peter J. Liu and James Harrison and Jaehoon Lee and Kelvin Xu and others},
+  title={Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models},
+  journal={Transactions on Machine Learning Research},
+  year={2024},
+  note={arXiv:2312.06585}}
+
+% src: nmi/refs_nmi.bib -- nmi has the ICLR 2025 proceedings title (proceedings.iclr.cc page); sweep had the arXiv title; arXiv note added
+% merge: set note
+@inproceedings{snell2025scaling,
+  author={Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral},
+  title={Scaling {LLM} Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning},
+  booktitle={International Conference on Learning Representations},
+  year={2025},
+  note={arXiv:2408.03314}}
+
+% src: old refs.bib -- unchanged
+@misc{sorokin2025nvarc,
+  author={Sorokin, Ivan and Puget, Jean-Fran{\c{c}}ois},
+  title={{NVARC}: {ARC} {Prize} 2025 solution},
+  howpublished={Kaggle model \url{https://www.kaggle.com/models/sorokin/qwen3_4b_grids15_sft139}},
+  year={2025}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{sui2025stopoverthinking,
+  author={Sui, Yang and Chuang, Yu-Neng and Wang, Guanchu and Zhang, Jiamu and Zhang, Tianyi and Yuan, Jiayi and Liu, Hongyi and Wen, Andrew and Zhong, Shaochen and Zou, Na and Chen, Hanjie and Hu, Xia},
+  title={Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models},
+  journal={Transactions on Machine Learning Research},
+  year={2025}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{xu2025chainofdraft,
+  author={Xu, Silei and Xie, Wenhao and Zhao, Lingxiao and He, Pengcheng},
+  title={Chain of Draft: Thinking Faster by Writing Less},
+  journal={arXiv preprint arXiv:2502.18600},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in new, sweep and nmi
+% ICLR 2026 poster (OpenReview E0Qfhma53J).
+@inproceedings{xu2026elastic,
+  author={Xu, Yuhui and Dong, Hanze and Wang, Lei and Sahoo, Doyen and Li, Junnan and Xiong, Caiming},
+  title={Scalable Chain of Thoughts via Elastic Reasoning},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2505.05315}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@inproceedings{yang2025tops,
+  author={Yang, Wenkai and Ma, Shuming and Lin, Yankai and Wei, Furu},
+  title={Towards Thinking-Optimal Scaling of Test-Time Compute for {LLM} Reasoning},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2502.18080}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@inproceedings{yi2025shorterbetter,
+  author={Yi, Jingyang and Wang, Jiazheng and Li, Sida},
+  title={{ShorterBetter}: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2504.21370}}
+
+% src: old refs.bib -- unchanged (the nmi copy differs only in its Nature preprint/author formatting)
+@article{yuan2023rft,
+  author={Yuan, Zheng and Yuan, Hongyi and Li, Chengpeng and Dong, Guanting and Lu, Keming and Tan, Chuanqi and Zhou, Chang and Zhou, Jingren},
+  title={Scaling Relationship on Learning Mathematical Reasoning with Large Language Models},
+  journal={arXiv preprint arXiv:2308.01825},
+  year={2023}}
+
+% src: natcomm/lit/new_refs.bib -- PART 3 of new_refs.bib: verified correction of the old refs.bib entry (same key)
+% COMPLETED: volume and pages from the NeurIPS proceedings page.
+@inproceedings{zelikman2022star,
+  author={Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah D.},
+  title={{STaR}: Bootstrapping Reasoning With Reasoning},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={15476--15488},
+  year={2022}}
+
+% ==============================================================================================================
+% GROUP 2 -- verified prior work for the revision, not cited yet
+% ==============================================================================================================
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2510.12066 (2510.12066v2; first posted 2025-10-14); venue: Crossref: Entropy 28(3):332 (2026), doi:10.3390/e28030332
+@article{achille2026universal,
+  author={Alessandro Achille and Stefano Soatto},
+  title={{AI} Agents as Universal Task Solvers},
+  journal={Entropy},
+  volume={28},
+  number={3},
+  pages={332},
+  year={2026},
+  doi={10.3390/e28030332},
+  note={arXiv:2510.12066}}
+
+% src: natcomm/lit/new_refs.bib
+% Candidate source for theory-RL's uncited remark on entropy minimisation (supports accuracy gains;
+% its abstract says nothing about shorter outputs). NeurIPS 2025 poster (OpenReview UfFTBEsLgI).
+@inproceedings{agarwal2025entropy,
+  author={Agarwal, Shivam and Zhang, Zimin and Yuan, Lifan and Han, Jiawei and Peng, Hao},
+  title={The Unreasonable Effectiveness of Entropy Minimization in {LLM} Reasoning},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2505.15134}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2505.18149 (2505.18149v1; first posted 2025-05-23); venue: arXiv only
+@article{agarwal2025ffs,
+  author={Aradhye Agarwal and Ayan Sengupta and Tanmoy Chakraborty},
+  title={First Finish Search: Efficient Test-Time Scaling in Large Language Models},
+  journal={arXiv preprint arXiv:2505.18149},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both; title braces {L1} taken from sweep
+% merge: changed title
+% COLM 2025 (OpenReview 4jdIxXBNve).
+@inproceedings{aggarwal2025l1,
+  author={Aggarwal, Pranjal and Welleck, Sean},
+  title={{L1}: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning},
+  booktitle={Conference on Language Modeling},
+  year={2025},
+  note={arXiv:2503.04697}}
+
+% src: natcomm/lit/new_refs.bib
+% Origin of the OAA_t metric (accuracy counting only samples shorter than t), i.e. A(t) by
+% post-hoc truncation. Not raised by the referees; found via Rakotonirina et al. 2026.
+@article{aggarwal2025optimalthinking,
+  author={Aggarwal, Pranjal and Kim, Seungone and Lanchantin, Jack and Welleck, Sean and Weston, Jason and Kulikov, Ilia and Saha, Swarnadeep},
+  title={{OptimalThinkingBench}: Evaluating Over and Underthinking in {LLMs}},
+  journal={arXiv preprint arXiv:2508.13141},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2507.05362 (2507.05362v2; first posted 2025-07-07); venue: OpenReview: NeurIPS 2025 poster
+@inproceedings{alberghi2025bias,
+  author={Riccardo Alberghi and Elizaveta Demyanenko and Luca Biggio and Luca Saglietti},
+  title={On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2507.05362}}
+
+% src: natcomm/lit/new_refs.bib
+% Source of the referee's "Kimi K3 12.4% (low) vs 55.0% (high)" figures. Only the 60.4% (max effort,
+% $1.59 per task) row is explicitly labelled Semi-Private on the page (accessed 2026-11-02).
+@misc{arcprize2026kimik3,
+  author={{ARC Prize Foundation}},
+  title={Moonshot {Kimi K3} -- {ARC-AGI} results},
+  howpublished={\url{https://arcprize.org/results/moonshot-kimi-k3}},
+  year={2026},
+  note={Accessed 2 November 2026}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both (author format only)
+% NeurIPS 2025 poster, OpenReview AiZxn84Wdo. SFT-on-shortest numbers are in App. C, Tables 3, 4, 8, 9.
+@inproceedings{arora2025training,
+  author={Arora, Daman and Zanette, Andrea},
+  title={Training Language Models to Reason Efficiently},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2502.04463}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2510.23486 (2510.23486v3; first posted 2025-10-27); venue: arXiv only
+@article{ayoub2025discounted,
+  author={Alex Ayoub and Kavosh Asadi and Dale Schuurmans and Csaba Szepesv{\'a}ri and Karim Bouyarmane},
+  title={Learning to Reason Efficiently with Discounted Reinforcement Learning},
+  journal={arXiv preprint arXiv:2510.23486},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1038/s41598-026-50923-2
+@article{ballon2026o3,
+  author={Ballon, Marthe and Algaba, Andres and Ginis, Vincent},
+  title={The relationship between reasoning and performance in large language models---{o3} (mini) thinks harder, not longer},
+  journal={Scientific Reports},
+  volume={16},
+  number={1},
+  pages={20896},
+  year={2026},
+  doi={10.1038/s41598-026-50923-2}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1038/s41467-023-44528-w
+@article{blumer2024combining,
+  author={Blumer, Ofir and Reuveni, Shlomi and Hirshberg, Barak},
+  title={Combining stochastic resetting with Metadynamics to speed-up molecular dynamics simulations},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={240},
+  year={2024},
+  doi={10.1038/s41467-023-44528-w}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2407.21787 (2407.21787v3; first posted 2024-07-31); venue: arXiv only
+@article{brown2024monkeys,
+  author={Bradley Brown and Jordan Juravsky and Ryan Ehrlich and Ronald Clark and Quoc V. Le and Christopher R{\'e} and Azalia Mirhoseini},
+  title={Large Language Monkeys: Scaling Inference Compute with Repeated Sampling},
+  journal={arXiv preprint arXiv:2407.21787},
+  year={2024}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2609.03436 (2609.03436v1; first posted 2026-09-03); venue: arXiv only
+@article{bulut2026problem,
+  author={Yigit Utku Bulut},
+  title={It's the Problem, Not the Path: Budget and Difficulty Confounds in {LLM} Reasoning Trajectories},
+  journal={arXiv preprint arXiv:2609.03436},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- new has the ICML 2024 proceedings data (PMLR 235:5013-5034, matches the PMLR page); arXiv note from sweep
+% merge: set note
+@inproceedings{butt2024codeit,
+  author={Butt, Natasha and Manczak, Blazej and Wiggers, Auke and Rainone, Corrado and Zhang, David W. and Defferrard, Micha{\"e}l and Cohen, Taco},
+  title={{CodeIt}: Self-Improving Language Models with Prioritized Hindsight Replay},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={235},
+  pages={5013--5034},
+  publisher={PMLR},
+  year={2024},
+  note={arXiv:2402.04858}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+@article{carlon2026shorter,
+  author={Carlon, Francesca and Ginis, Vincent and Algaba, Andres},
+  title={Shorter Reasoning, Earlier Answers? {A}n Evaluation of Reasoning Interfaces},
+  journal={arXiv preprint arXiv:2608.03401},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2610.26384 (2610.26384v1; first posted 2026-10-19); venue: arXiv only
+@article{chang2026answer,
+  author={Yupeng Chang and Linyuan Gao and Zhiyuan Li and Yuan Wu and Yi Chang},
+  title={Answer Delivery Under a Shared Token Budget: An Audited Study of Stopping and Finalization},
+  journal={arXiv preprint arXiv:2610.26384},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+@article{chaudhry2026rl,
+  author={Chaudhry, Lakshya},
+  title={Is it {RL} or Data? {A} Controlled Comparison of {GRPO} and Rejection-Sampling Fine-Tuning},
+  journal={arXiv preprint arXiv:2610.25812},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2601.11940 (2601.11940v1; first posted 2026-01-17); venue: arXiv (an author-uploaded OpenReview archive record lists Findings of ACL 2026; not confirmed on the ACL Anthology)
+@article{chen2026taar,
+  author={Kang Chen and Fan Yu and Junjie Nian and Shihan Zhao and Zhuoka Feng and Zijun Yao and Heng Wang and Minshen Yu and Yixin Cao},
+  title={Thinking Traps in Long Chain-of-Thought: A Measurable Study and Trap-Aware Adaptive Restart},
+  journal={arXiv preprint arXiv:2601.11940},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib
+@article{chollet2024arcprize,
+  author={Chollet, Fran{\c{c}}ois and Knoop, Mike and Kamradt, Gregory and Landers, Bryan},
+  title={{ARC} Prize 2024: Technical Report},
+  journal={arXiv preprint arXiv:2412.04604},
+  year={2024}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2610.28770 (2610.28770v1; first posted 2026-10-20); venue: arXiv only
+@article{dao2026reapo,
+  author={Nghi Dao and Calder Morton-Ferguson and Noah Golowich and Adam Block},
+  title={{ReAPO}: Retry-Aware Policy Optimization for Efficient Exploration in {LLM} Reasoning},
+  journal={arXiv preprint arXiv:2610.28770},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib
+% States the maximum generation length of 32,768 tokens and temperature 0.5--0.7 (0.6 recommended)
+% "to prevent endless repetitions or incoherent outputs".
+@misc{deepseek2025r1distillllama8bcard,
+  author={{DeepSeek-AI}},
+  title={{DeepSeek-R1-Distill-Llama-8B}},
+  howpublished={Model card, \url{https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B}},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2510.21067 (2510.21067v1; first posted 2025-10-24); venue: arXiv (NeurIPS 2025 Workshop on Efficient Reasoning per arXiv comment)
+@article{dinardi2025virtues,
+  author={Raul Cavalcante Dinardi and Bruno Yamamoto and Anna Helena Reali Costa and Artur Jordao},
+  title={The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning},
+  journal={arXiv preprint arXiv:2510.21067},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2304.06767 (2304.06767v4; first posted 2023-04-13); venue: arXiv comment + OpenReview: TMLR 2023
+@article{dong2023raft,
+  author={Hanze Dong and Wei Xiong and Deepanshu Goyal and Yihan Zhang and Winnie Chow and Rui Pan and Shizhe Diao and Jipeng Zhang and Kashun Shum and Tong Zhang},
+  title={{RAFT}: Reward {rAnked} {FineTuning} for Generative Foundation Model Alignment},
+  journal={Transactions on Machine Learning Research},
+  year={2023},
+  note={arXiv:2304.06767}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2607.15736 (2607.15736v1; first posted 2026-07-17); venue: arXiv only
+@article{dong2026bird,
+  author={Leichao Dong and Dongxu Zhang and Yiding Sun and Qirui Wang and Yuhan Wang and Lin Chen and Jihua Zhu},
+  title={Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning},
+  journal={arXiv preprint arXiv:2607.15736},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2607.11089 (2607.11089v1; first posted 2026-07-13); venue: arXiv only
+@article{ehab2026ospruner,
+  author={Mohammed Ehab and Aymane El Gadarri and Vivek F. Farias and Adam Jozefiak and Ciamac C. Moallemi},
+  title={{OS-Pruner}: Pruning Chains-of-Thought of Reasoning Models via Optimal Stopping},
+  journal={arXiv preprint arXiv:2607.11089},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1088/1751-8121/ab7cfe
+@article{evans2020stochastic,
+  author={Evans, Martin R and Majumdar, Satya N and Schehr, Gr{\'e}gory},
+  title={Stochastic resetting and applications},
+  journal={Journal of Physics A: Mathematical and Theoretical},
+  volume={53},
+  number={19},
+  pages={193001},
+  year={2020},
+  doi={10.1088/1751-8121/ab7cfe}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.05185 (2504.05185v3; first posted 2025-04-07); venue: arXiv only (ICLR 2026 submission withdrawn)
+@article{fatemi2025concise,
+  author={Mehdi Fatemi and Banafsheh Rafiee and Mingjie Tang and Kartik Talamadupula},
+  title={Concise Reasoning via Reinforcement Learning},
+  journal={arXiv preprint arXiv:2504.05185},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.10903 (2504.10903v2; first posted 2025-04-15); venue: arXiv comment + OpenReview: TMLR 2025
+@article{feng2025efficient,
+  author={Sicheng Feng and Gongfan Fang and Xinyin Ma and Xinchao Wang},
+  title={Efficient Reasoning Models: A Survey},
+  journal={Transactions on Machine Learning Research},
+  year={2025},
+  note={arXiv:2504.10903}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2404.03683 (2404.03683v1; first posted 2024-04-01); venue: OpenReview: COLM 2024
+@inproceedings{gandhi2024sos,
+  author={Kanishk Gandhi and Denise Lee and Gabriel Grand and Muxin Liu and Winson Cheng and Archit Sharma and Noah D. Goodman},
+  title={Stream of Search ({SoS}): Learning to Search in Language},
+  booktitle={Conference on Language Modeling},
+  year={2024},
+  note={arXiv:2404.03683}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2507.14417 (2507.14417v2; first posted 2025-07-19); venue: arXiv journal-ref: TMLR 12/2025
+@article{gema2025inverse,
+  author={Aryo Pradipta Gema and Alexander H{\"a}gele and Runjin Chen and Andy Arditi and Jacob Goldman-Wetzler and Kit Fraser-Taliente and Henry Sleight and Linda Petrini and Julian Michael and Beatrice Alex and Pasquale Minervini and Yanda Chen and Joe Benton and Ethan Perez},
+  title={Inverse Scaling in Test-Time Compute},
+  journal={Transactions on Machine Learning Research},
+  year={2025},
+  note={arXiv:2507.14417}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2506.04210 (2506.04210v3; first posted 2025-06-04); venue: arXiv comment + OpenReview: NeurIPS 2025
+@inproceedings{ghosal2025mirage,
+  author={Soumya Suvra Ghosal and Souradip Chakraborty and Avinash Reddy and Yifu Lu and Mengdi Wang and Dinesh Manocha and Furong Huang and Mohammad Ghavamzadeh and Amrit Singh Bedi},
+  title={Does Thinking More always Help? {Mirage} of Test-Time Scaling in Reasoning Models},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2506.04210}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2608.04160 (2608.04160v1; first posted 2026-08-04); venue: arXiv only
+@article{goyal2026mindcap,
+  author={Ankit Goyal and Jaideep Ray},
+  title={Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap},
+  journal={arXiv preprint arXiv:2608.04160},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib
+@misc{griggs2025skyt1flash,
+  author={Griggs, Tyler and Cao, Shiyi and Li, Dacheng and Liu, Shu and Patil, Shishir G. and Zaharia, Matei and Gonzalez, Joey and Stoica, Ion},
+  title={Think Less, Achieve More: Cut Reasoning Costs by 50\% Without Sacrificing Accuracy},
+  howpublished={NovaSky blog (Sky-T1-32B-Flash), 23 January 2025, \url{https://novasky-ai.github.io/posts/reduce-overthinking/}},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2608.12150 (2608.12150v1; first posted 2026-08-12); venue: arXiv only
+@article{guedes2026budget,
+  author={Rodrigo Guedes de Souza and Alison R. Panisson},
+  title={Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in {LLM} Evaluation},
+  journal={arXiv preprint arXiv:2608.12150},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2506.04178 (2506.04178v2; first posted 2025-06-04); venue: OpenReview: ICLR 2026 Oral
+@inproceedings{guha2026openthoughts,
+  author={Etash Guha and Ryan Marten and Sedrick Keh and Negin Raoof and Georgios Smyrnis and Hritik Bansal and Marianna Nezhurina and Jean Mercat and Trung Vu and Zayne Sprague and others},
+  title={{OpenThoughts}: Data Recipes for Reasoning Models},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2506.04178}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2412.18547 (2412.18547v6; first posted 2024-12-24); venue: OpenReview (dblp mirror): ACL (Findings) 2025
+@inproceedings{han2025tale,
+  author={Tingxu Han and Zhenting Wang and Chunrong Fang and Shiyu Zhao and Shiqing Ma and Zhenyu Chen},
+  title={Token-Budget-Aware {LLM} Reasoning},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+  year={2025},
+  note={arXiv:2412.18547}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2604.14820 (2604.14820v1; first posted 2026-04-16); venue: arXiv only
+@article{han2026swetrace,
+  author={Hao Han and Jin Xie and Xuehao Ma and Weiquan Zhu and Ziyao Zhang and ZhiLiang Long and Hongkai Chen and Qingwen Ye},
+  title={{SWE-TRACE}: Optimizing Long-Horizon {SWE} Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling},
+  journal={arXiv preprint arXiv:2604.14820},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2610.05322 (2610.05322v1; first posted 2026-10-04); venue: arXiv (NeurIPS 2026 MATH-AI workshop per arXiv comment)
+@article{hasan2026longer,
+  author={Adib Hasan and Lay Jain and Thanic Nur Samin},
+  title={When Does Longer Reasoning Help? {Predicting} Mathematical Reasoning Through Discovery and Execution},
+  journal={arXiv preprint arXiv:2610.05322},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2404.00725 (2404.00725v2; first posted 2024-03-31); venue: arXiv comment: COLM 2024
+@inproceedings{hassid2024larger,
+  author={Michael Hassid and Tal Remez and Jonas Gehring and Roy Schwartz and Yossi Adi},
+  title={The Larger the Better? {Improved} {LLM} Code-Generation via Budget Reallocation},
+  booktitle={Conference on Language Modeling},
+  year={2024},
+  note={arXiv:2404.00725}}
+
+% src: positioning.md section 6 (CRDS); arXiv API 2610.20057v1: title and 7 authors checked 2026-11-02
+@article{he2026crds,
+  author={He, Liang and Li, Xiangyu and Wang, Yuxin and Zhang, Hanbin and Cao, Mingyu and Guo, Zhaomiao and Wang, Xilu},
+  title={Beyond Correctness: Compute-Responsive Data Selection for Reasoning Model Post-Training},
+  journal={arXiv preprint arXiv:2610.20057},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.07086 (2504.07086v2; first posted 2025-04-09); venue: arXiv comment + OpenReview: COLM 2025
+@inproceedings{hochlehnert2025sober,
+  author={Andreas Hochlehnert and Hardik Bhatnagar and Vishaal Udandarao and Samuel Albanie and Ameya Prabhu and Matthias Bethge},
+  title={A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility},
+  booktitle={Conference on Language Modeling},
+  year={2025},
+  note={arXiv:2504.07086}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2412.01951 (2412.01951v2; first posted 2024-12-02); venue: OpenReview: ICLR 2025 Oral
+@inproceedings{huang2025sharpening,
+  author={Audrey Huang and Adam Block and Dylan J. Foster and Dhruv Rohatgi and Cyril Zhang and Max Simchowitz and Jordan T. Ash and Akshay Krishnamurthy},
+  title={Self-Improvement in Language Models: The Sharpening Mechanism},
+  booktitle={International Conference on Learning Representations},
+  year={2025},
+  note={arXiv:2412.01951}}
+
+% src: natcomm/lit/new_refs.bib -- new has pages 664-686 and DOI 10.1145/3832120 (Crossref record; the arXiv journal-ref gives article ISSTA029); arXiv note from sweep
+% merge: set note
+% SFT on the shortest correct self-generated CoT for compression (described so in CRISP's related work).
+@article{huang2026seer,
+  author={Huang, Kerui and Liu, Shuhan and Hu, Xing and Xu, Tongtong and Bao, Lingfeng and Xia, Xin},
+  title={{SEER}: Self-Enhancing Chain-of-Thought Compression for Reasoning Models},
+  journal={Proceedings of the ACM on Software Engineering},
+  volume={3},
+  number={ISSTA},
+  pages={664--686},
+  year={2026},
+  doi={10.1145/3832120},
+  note={arXiv:2509.14093}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1126/science.275.5296.51
+@article{huberman1997economics,
+  author={Huberman, Bernardo A. and Lukose, Rajan M. and Hogg, Tad},
+  title={An Economics Approach to Hard Computational Problems},
+  journal={Science},
+  volume={275},
+  number={5296},
+  pages={51--54},
+  year={1997},
+  doi={10.1126/science.275.5296.51}}
+
+% src: natcomm/lit/new_refs.bib
+@misc{huggingface2025mathverify,
+  author={{Hugging Face}},
+  title={{Math-Verify}: a robust mathematical expression evaluator},
+  howpublished={\url{https://github.com/huggingface/Math-Verify}},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2401.04925 (2401.04925v4; first posted 2024-01-10); venue: arXiv comment: Findings of ACL 2024
+@inproceedings{jin2024impact,
+  author={Mingyu Jin and Qinkai Yu and Dong Shu and Haiyan Zhao and Wenyue Hua and Yanda Meng and Yongfeng Zhang and Mengnan Du},
+  title={The Impact of Reasoning Step Length on Large Language Models},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2024},
+  year={2024},
+  note={arXiv:2401.04925}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+@article{kaiser2026decomposing,
+  author={Kaiser, Daniel and Frigessi, Arnoldo and Ramezani-Kebrya, Ali and Ricaud, Benjamin},
+  title={Beyond Accuracy: Decomposing the Reasoning Efficiency of {LLMs}},
+  journal={arXiv preprint arXiv:2602.09805},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2412.11664 (2412.11664v1; first posted 2024-12-16); venue: arXiv comment: Accepted by AAAI 2025
+@inproceedings{kang2025c3ot,
+  author={Yu Kang and Xianghui Sun and Liangyu Chen and Wei Zou},
+  title={{C3oT}: Generating Shorter Chain-of-Thought without Compromising Effectiveness},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025},
+  note={arXiv:2412.11664}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2510.08308 (2510.08308v1; first posted 2025-10-09); venue: arXiv only (ICLR 2026 rejected submission)
+@article{kang2025firsttry,
+  author={Liwei Kang and Yue Deng and Yao Xiao and Zhanfeng Mo and Wee Sun Lee and Lidong Bing},
+  title={First Try Matters: Revisiting the Role of Reflection in Reasoning Models},
+  journal={arXiv preprint arXiv:2510.08308},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2510.01624 (2510.01624v1; first posted 2025-10-02); venue: OpenReview: ICLR 2026 Poster
+@inproceedings{kang2026quagmires,
+  author={Feiyang Kang and Michael Kuchnik and Karthik Padthe and Marin Vlastelica and Ruoxi Jia and Carole-Jean Wu and Newsha Ardalani},
+  title={Quagmires in {SFT-RL} Post-Training: When High {SFT} Scores Mislead and What to Use Instead},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2510.01624}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both (arXiv; ICML 2025 workshop paper only)
+% Referee wrote "Lee et al. (ICML 2025)": it is an ICML 2025 WORKSHOP paper (ES-FoMo III,
+% OpenReview uj5u4o5xjT), not a main-track PMLR paper; cite the arXiv version.
+@article{lee2025tokencomplexity,
+  author={Lee, Ayeong and Che, Ethan and Peng, Tianyi},
+  title={How Well do {LLMs} Compress Their Own Chain-of-Thought? {A} Token Complexity Approach},
+  journal={arXiv preprint arXiv:2503.01141},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib
+@inproceedings{li2026budgetguidance,
+  author={Li, Junyan and Zhao, Wenshuo and Zhang, Yang and Gan, Chuang},
+  title={Steering {LLM} Thinking with Budget Guidance},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  pages={37437--37451},
+  publisher={Association for Computational Linguistics},
+  year={2026},
+  doi={10.18653/v1/2026.findings-acl.1866}}
+
+% src: positioning.md section 5 row 10 and section 6 notes (Ling/Ring 2.6); arXiv API 2606.15079v1: title checked, 218 named authors (first Ang Li), no corporate author; 2026-11-02
+@article{li2026lingring,
+  author={Li, Ang and others},
+  title={Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale},
+  journal={arXiv preprint arXiv:2606.15079},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2601.08310 (2601.08310v2; first posted 2026-01-13); venue: arXiv only
+@article{liang2026orbit,
+  author={Kun Liang and Clive Bai and Xin Xu and Chenming Tang and Sanwoo Lee and Weijie Liu and Saiyong Yang and Yunfang Wu},
+  title={{ORBIT}: On-policy Exploration-Exploitation for Controllable Multi-Budget Reasoning},
+  journal={arXiv preprint arXiv:2601.08310},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata; title braces {pEnalty} taken from sweep so the arXiv capitalisation survives sentence-casing
+% merge: changed title
+% NVIDIA technical report; submitted to ICLR 2026 and not accepted (OpenReview gxkOfdaaMA).
+@article{liu2025dler,
+  author={Liu, Shih-Yang and Dong, Xin and Lu, Ximing and Diao, Shizhe and Liu, Mingjie and Chen, Min-Hung and Yin, Hongxu and Wang, Yu-Chiang Frank and Cheng, Kwang-Ting and Choi, Yejin and Kautz, Jan and Molchanov, Pavlo},
+  title={{DLER}: Doing Length {pEnalty} Right -- Incentivizing More Intelligence per Token via Reinforcement Learning},
+  journal={arXiv preprint arXiv:2510.15110},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata; title braces {R1-Zero-Like} taken from sweep
+% merge: changed title
+% COLM 2025 (OpenReview 5PAF7PAY2Y). "Dr. GRPO" in the reports.
+@inproceedings{liu2025drgrpo,
+  author={Liu, Zichen and Chen, Changyu and Li, Wenjun and Qi, Penghui and Pang, Tianyu and Du, Chao and Lee, Wee Sun and Lin, Min},
+  title={Understanding {R1-Zero-Like} Training: A Critical Perspective},
+  booktitle={Conference on Language Modeling},
+  year={2025},
+  note={arXiv:2503.20783}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2505.15612 (2505.15612v1; first posted 2025-05-21); venue: OpenReview: ICLR 2026 Poster
+@inproceedings{liu2026laser,
+  author={Wei Liu and Ruochen Zhou and Yiyun Deng and Yuzhen Huang and Junteng Liu and Yuntian Deng and Yizhe Zhang and Junxian He},
+  title={Learn to Reason Efficiently with Adaptive Length-based Reward Shaping},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2505.15612}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.04383 (2504.04383v2; first posted 2025-04-06); venue: arXiv only
+@article{lu2025retrosearch,
+  author={Ximing Lu and Seungju Han and David Acuna and Hyunwoo Kim and Jaehun Jung and Shrimai Prabhumoye and Niklas Muennighoff and Mostofa Patwary and Mohammad Shoeybi and Bryan Catanzaro and Yejin Choi},
+  title={Retro-Search: Exploring Untaken Paths for Deeper and Efficient Reasoning},
+  journal={arXiv preprint arXiv:2504.04383},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- Findings of ACL 2026 (matches the ACL Anthology record: authors, pages 14242-14257, DOI)
+% Author order as in the ACL Anthology (differs from the arXiv order).
+@inproceedings{luo2026o1pruner,
+  author={Luo, Haotian and He, Haiying and Wang, Yibo and Liu, Shiwei and Li, Wei and Cao, Xiaochun and Tao, Dacheng and Tan, Naiqiang and Shen, Li},
+  title={{O}1-Pruner: Length-Harmonizing Fine-Tuning for {O}1-Like Reasoning Pruning},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  pages={14242--14257},
+  publisher={Association for Computational Linguistics},
+  year={2026},
+  doi={10.18653/v1/2026.findings-acl.697}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+% Concurrent work named by Nie et al. (NoThinking beats Thinking at matched low budgets).
+@article{ma2025nothinking,
+  author={Ma, Wenjie and He, Jingxuan and Snell, Charlie and Griggs, Tyler and Min, Sewon and Zaharia, Matei},
+  title={Reasoning Models Can Be Effective Without Thinking},
+  journal={arXiv preprint arXiv:2504.09858},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2606.17930 (2606.17930v3; first posted 2026-06-16); venue: arXiv only
+@article{mcfadyen2026inference,
+  author={Jessica McFadyen and Ole Jorgensen and Harry Coppock and Kevin Wei and Cozmin Ududec},
+  title={How Inference Compute Shapes Frontier {LLM} Evaluation},
+  journal={arXiv preprint arXiv:2606.17930},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1016/j.ins.2026.123939
+@article{nayab2026concise,
+  author={Nayab, Sania and Rossolini, Giulio and Simoni, Marco and Saracino, Andrea and Buttazzo, Giorgio and Manes, Nicolamaria and Giacomelli, Fabrizio},
+  title={Concise thoughts: Impact of output length on {LLM} reasoning and cost},
+  journal={Information Sciences},
+  volume={757},
+  pages={123939},
+  year={2026},
+  doi={10.1016/j.ins.2026.123939}}
+
+% src: natcomm/lit/new_refs.bib -- new braces {Zhang Zijian} as one name token (name order as printed on arXiv); sweep would print "Zijian, Z."
+% Author "Zhang Zijian" is printed in this order on arXiv and in the paper; kept verbatim.
+@article{nie2026truncation,
+  author={Nie, Wenhua and Liu, Junlin and Wu, Jianan and Meng, Zijie and Fan, Yilong and {Zhang Zijian} and Zheng, Haoran and Jang, Jyh-Shing Roger},
+  title={The Coupling Tax: How Shared Token Budgets Undermine Visible Chain-of-Thought Under Fixed Output Limits},
+  journal={arXiv preprint arXiv:2605.07686},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:1806.05635 (1806.05635v1; first posted 2018-06-14); venue: PMLR v80 page
+@inproceedings{oh2018sil,
+  author={Junhyuk Oh and Yijie Guo and Satinder Singh and Honglak Lee},
+  title={Self-Imitation Learning},
+  booktitle={Proceedings of the 35th International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={80},
+  pages={3878--3887},
+  year={2018},
+  note={arXiv:1806.05635}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2607.21433 (2607.21433v1; first posted 2026-07-23); venue: arXiv only
+@article{oladri2026saturation,
+  author={Renuka Oladri and Niveda Jawahar and Abdirisak Mohamed},
+  title={Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models},
+  journal={arXiv preprint arXiv:2607.21433},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1103/PhysRevLett.118.030603
+@article{pal2017first,
+  author={Pal, Arnab and Reuveni, Shlomi},
+  title={First Passage under Restart},
+  journal={Physical Review Letters},
+  volume={118},
+  number={3},
+  pages={030603},
+  year={2017},
+  doi={10.1103/PhysRevLett.118.030603}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2412.21139 (2412.21139v2; first posted 2024-12-30); venue: arXiv comment: Accepted at ICML 2025
+@inproceedings{pan2025swegym,
+  author={Jiayi Pan and Xingyao Wang and Graham Neubig and Navdeep Jaitly and Heng Ji and Alane Suhr and Yizhe Zhang},
+  title={Training Software Engineering Agents and Verifiers with {SWE-Gym}},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  year={2025},
+  note={arXiv:2412.21139}}
+
+% src: natcomm/lit/new_refs.bib -- new has the PMLR data (80:4045-4054, matches the PMLR page); arXiv note from sweep
+% merge: set note
+% PMLR page gives pages 4045--4054 (the arXiv journal-ref says 4042--4051; PMLR is authoritative).
+@inproceedings{pardo2018time,
+  author={Pardo, Fabio and Tavakoli, Arash and Levdik, Vitaly and Kormushev, Petar},
+  title={Time Limits in Reinforcement Learning},
+  booktitle={Proceedings of the 35th International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={80},
+  pages={4045--4054},
+  publisher={PMLR},
+  year={2018},
+  note={arXiv:1712.00378}}
+
+% src: natcomm/lit/new_refs.bib -- new has the PMLR data (267:49659-49688, matches the PMLR page); arXiv note from sweep
+% merge: set note
+% "SOAR" in the reports.
+@inproceedings{pourcel2025soar,
+  author={Pourcel, Julien and Colas, C{\'e}dric and Oudeyer, Pierre-Yves},
+  title={Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on {ARC-AGI}},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={49659--49688},
+  publisher={PMLR},
+  year={2025},
+  note={arXiv:2507.14172}}
+
+% src: natcomm/lit/new_refs.bib
+% States the recommended output length (32,768 tokens; 38,912 for competition math/programming)
+% and presence_penalty 1.5 against endless repetitions.
+@misc{qwen2025qwen3x4bcard,
+  author={{Qwen Team}},
+  title={{Qwen3-4B}},
+  howpublished={Model card, \url{https://huggingface.co/Qwen/Qwen3-4B}},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib
+@inproceedings{rakotonirina2026correct,
+  author={Rakotonirina, Nathana{\"e}l Carraz and Pang, Ren and Anna John, Neha and Bohlke-Schneider, Michael and Hardalov, Momchil},
+  title={Correct, Concise and Complete: Multi-stage Training For Adaptive Reasoning},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  pages={12798--12810},
+  publisher={Association for Computational Linguistics},
+  year={2026},
+  doi={10.18653/v1/2026.findings-acl.622}}
+
+% src: natcomm/lit/new_refs.bib
+@article{sang2026crisp,
+  author={Sang, Hejian and Xu, Yuanda and Zhou, Zhengze and He, Ran and Wang, Zhipeng and Sun, Jiachen},
+  title={{CRISP}: Compressed Reasoning via Iterative Self-Policy Distillation},
+  journal={arXiv preprint arXiv:2603.05433},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2406.14532 (2406.14532v1; first posted 2024-06-20); venue: OpenReview: NeurIPS 2024 poster
+@inproceedings{setlur2024rl,
+  author={Amrith Setlur and Saurabh Garg and Xinyang Geng and Naman Garg and Virginia Smith and Aviral Kumar},
+  title={{RL} on Incorrect Synthetic Data Scales the Efficiency of {LLM} Math Reasoning by Eight-Fold},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2024},
+  note={arXiv:2406.14532}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2609.33559 (2609.33559v1; first posted 2026-09-27); venue: arXiv only
+@article{sheikh2026fine,
+  author={Ely Sheikh},
+  title={Fine Until Fine-Tuned: Repeated Solutions Make Reasoning Fragile},
+  journal={arXiv preprint arXiv:2609.33559},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2503.04472 (2503.04472v3; first posted 2025-03-06); venue: arXiv comment + OpenReview: EMNLP 2025 Industry Track
+@inproceedings{shen2025dast,
+  author={Yi Shen and Jian Zhang and Jieyun Huang and Shuming Shi and Wenjing Zhang and Jiangze Yan and Ning Wang and Kai Wang and Zhaoxiang Liu and Shiguo Lian},
+  title={{DAST}: Difficulty-Adaptive Slow-Thinking for Large Reasoning Models},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track},
+  year={2025},
+  note={arXiv:2503.04472}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2503.18069 (2503.18069v1; first posted 2025-03-23); venue: arXiv only (ICLR 2026 desk-rejected submission)
+@article{shen2025long,
+  author={Si Shen and Fei Huang and Zhixiao Zhao and Chang Liu and Tiansheng Zheng and Danhao Zhu},
+  title={Long Is More Important Than Difficult for Training Reasoning Models},
+  journal={arXiv preprint arXiv:2503.18069},
+  year={2025}}
+
+% src: positioning.md section 6 (TTI); arXiv API 2506.07976v2: title and 11 authors checked 2026-11-02
+@article{shen2025tti,
+  author={Shen, Junhong and Bai, Hao and Zhang, Lunjun and Zhou, Yifei and Setlur, Amrith and Tong, Shengbang and Caples, Diego and Jiang, Nan and Zhang, Tong and Talwalkar, Ameet and Kumar, Aviral},
+  title={Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction},
+  journal={arXiv preprint arXiv:2506.07976},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: Crossref record for doi:10.1103/physreve.107.l062101
+@article{starkov2023universal,
+  author={Starkov, Dmitry and Belan, Sergey},
+  title={Universal performance bounds of restart},
+  journal={Physical Review E},
+  volume={107},
+  number={6},
+  pages={L062101},
+  year={2023},
+  doi={10.1103/physreve.107.l062101}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2505.00127 (2505.00127v1; first posted 2025-04-30); venue: arXiv only
+@article{su2025between,
+  author={Jinyan Su and Jennifer Healey and Preslav Nakov and Claire Cardie},
+  title={Between Underthinking and Overthinking: An Empirical Study of Reasoning Length and correctness in {LLMs}},
+  journal={arXiv preprint arXiv:2505.00127},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.14350 (2504.14350v3; first posted 2025-04-19); venue: ACL Anthology 2025.emnlp-main.389
+@inproceedings{sun2025timesup,
+  author={Yi Sun and Han Wang and Jiaqiang Li and Jiacheng Liu and Xiangyu Li and Hao Wen and Yizhen Yuan and Huiwen Zheng and Yan Liang and Yuanchun Li and Yunxin Liu},
+  title={An Empirical Study of {LLM} Reasoning Ability Under Strict Output Length Constraint},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={7652--7671},
+  year={2025},
+  doi={10.18653/v1/2025.emnlp-main.389},
+  note={arXiv:2504.14350}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2605.17497 (2605.17497v1; first posted 2026-05-17); venue: arXiv only
+@article{tan2026ssopd,
+  author={Zhiquan Tan and Yinrong Hong},
+  title={Self-Supervised On-Policy Distillation for Reasoning Language Models},
+  journal={arXiv preprint arXiv:2605.17497},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2407.13690 (2407.13690v2; first posted 2024-06-18); venue: arXiv comment + OpenReview: NeurIPS 2024
+@inproceedings{tong2024dartmath,
+  author={Yuxuan Tong and Xiwen Zhang and Rui Wang and Ruidong Wu and Junxian He},
+  title={{DART-Math}: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2024},
+  note={arXiv:2407.13690}}
+
+% src: old refs.bib -- unchanged
+@inproceedings{wang2023selfconsistency,
+  author={Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny},
+  title={Self-Consistency Improves Chain of Thought Reasoning in Language Models},
+  booktitle={International Conference on Learning Representations},
+  year={2023}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2406.06461 (2406.06461v3; first posted 2024-06-10); venue: ACL Anthology 2024.emnlp-main.1112
+@inproceedings{wang2024tokeneconomies,
+  author={Junlin Wang and Siddhartha Jain and Dejiao Zhang and Baishakhi Ray and Varun Kumar and Ben Athiwaratkun},
+  title={Reasoning in Token Economies: Budget-Aware Evaluation of {LLM} Reasoning Strategies},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages={19916--19939},
+  year={2024},
+  doi={10.18653/v1/2024.emnlp-main.1112},
+  note={arXiv:2406.06461}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2501.18585 (2501.18585v2; first posted 2025-01-30); venue: arXiv only
+@article{wang2025underthinking,
+  author={Yue Wang and Qiuzhi Liu and Jiahao Xu and Tian Liang and Xingyu Chen and Zhiwei He and Linfeng Song and Dian Yu and Juntao Li and Zhuosheng Zhang and Rui Wang and Zhaopeng Tu and Haitao Mi and Dong Yu},
+  title={Thoughts Are All Over the Place: On the Underthinking of {o1-Like} {LLMs}},
+  journal={arXiv preprint arXiv:2501.18585},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2604.07931 (2604.07931v1; first posted 2026-04-09); venue: arXiv only
+@article{wang2026heavytailed,
+  author={Jing Wang and Yu-Yang Qian and Ke Xue and Chao Qian and Peng Zhao and Zhi-Hua Zhou},
+  title={Robust Length Prediction: A Perspective from Heavy-Tailed Prompt-Conditioned Distributions},
+  journal={arXiv preprint arXiv:2604.07931},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2606.22938 (2606.22938v1; first posted 2026-06-22); venue: OpenReview: ICML 2026 regular
+@inproceedings{wei2026provable,
+  author={Stanley Wei and Juno Kim},
+  title={Provable Benefits of {RLVR} over {SFT} for Reasoning Models: Learning to Backtrack Efficiently},
+  booktitle={International Conference on Machine Learning},
+  year={2026},
+  note={arXiv:2606.22938}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2509.21882 (2509.21882v3; first posted 2025-09-26); venue: arXiv only
+@article{wu2025hiddencosts,
+  author={Fang Wu and Aaron Tu and Weihao Xuan and Heli Qi and Xu Huang and Qingcheng Zeng and Shayan Talaei and Yijia Xiao and Peng Xia and Xiangru Tang and others},
+  title={Position: The Hidden Costs and Measurement Gaps of Reinforcement Learning with Verifiable Rewards},
+  journal={arXiv preprint arXiv:2509.21882},
+  year={2025}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+@inproceedings{wu2026whenmore,
+  author={Wu, Yuyang and Wang, Yifei and Ye, Ziyu and Du, Tianqi and Jegelka, Stefanie and Wang, Yisen},
+  title={When More is Less: Understanding Chain-of-Thought Length in {LLMs}},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2502.07266}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2502.12067 (2502.12067v3; first posted 2025-02-17); venue: arXiv comment: EMNLP 2025 (Long Paper)
+@inproceedings{xia2025tokenskip,
+  author={Heming Xia and Chak Tou Leong and Wenjie Wang and Yongqi Li and Wenjie Li},
+  title={{TokenSkip}: Controllable Chain-of-Thought Compression in {LLMs}},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  note={arXiv:2502.12067}}
+
+% src: positioning.md section 6 (ThinkPO); arXiv API 2502.13173v1: title and 5 authors checked 2026-11-02
+@article{yang2025thinkpo,
+  author={Yang, Wang and Jin, Hongye and Yang, Jingfeng and Chaudhary, Vipin and Han, Xiaotian},
+  title={Thinking Preference Optimization},
+  journal={arXiv preprint arXiv:2502.13173},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.15895 (2504.15895v3; first posted 2025-04-22); venue: OpenReview: ICLR 2026 Poster
+@inproceedings{yang2026deer,
+  author={Chenxu Yang and Qingyi Si and Yongjie Duan and Zheliang Zhu and Chenyu Zhu and Qiaowei Li and Minghui Chen and Zheng Lin and Weiping Wang},
+  title={Dynamic Early Exit in Reasoning Models},
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={arXiv:2504.15895}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2610.34894 (2610.34894v1; first posted 2026-10-26); venue: arXiv only (posted 2026-10-26)
+@article{yang2026outcome,
+  author={Shan Yang},
+  title={What Outcome {RL} Buys: Finishing, Reliability, Rarely Reach},
+  journal={arXiv preprint arXiv:2610.34894},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2605.08563 (2605.08563v1; first posted 2026-05-08); venue: arXiv only
+@article{yang2026retrying,
+  author={Zhanfu Yang},
+  title={Why Retrying Fails: Context Contamination in {LLM} Agent Pipelines},
+  journal={arXiv preprint arXiv:2605.08563},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- new is the ICML 2025 published version (title, five authors and pages 71177-71209 match the PMLR page); sweep had the arXiv version; arXiv note added
+% merge: set note
+% Published version (PMLR) lists the first author as Shiming Yang and the third as Xinyao Niu;
+% the arXiv version (arXiv:2502.03373, "Demystifying Long Chain-of-Thought Reasoning in LLMs")
+% lists Edward Yeo, Yuxuan Tong, Morry Niu, Graham Neubig, Xiang Yue. Key keeps the referees' name.
+@inproceedings{yeo2025demystifying,
+  author={Yang, Shiming and Tong, Yuxuan and Niu, Xinyao and Neubig, Graham and Yue, Xiang},
+  title={Demystifying Long Chain-of-Thought Reasoning},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={71177--71209},
+  publisher={PMLR},
+  year={2025},
+  note={arXiv:2502.03373}}
+
+% src: natcomm/lit/new_refs.bib -- new has the 36-author NeurIPS 2025 list from the OpenReview record (first-wave verification; OpenReview refused scripted access in this pass); sweep had 10 names + others
+% NeurIPS 2025 poster (OpenReview 2a36EMSSTp). The NeurIPS author list (36) differs from arXiv v2 (35):
+% it adds Juncai Liu and Ru Zhang and drops Mu Qiao. OpenReview writes "YuYue"; arXiv writes "Yu Yue".
+@inproceedings{yu2025dapo,
+  author={Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Dai, Weinan and Fan, Tiantian and Liu, Gaohong and Liu, Juncai and Liu, Lingjun and Liu, Xin and Lin, Haibin and Lin, Zhiqi and Ma, Bole and Sheng, Guangming and Tong, Yuxuan and Zhang, Chi and Zhang, Mofan and Zhang, Ru and Zhang, Wang and Zhu, Hang and Zhu, Jinhua and Chen, Jiaze and Chen, Jiangjie and Wang, Chengyi and Yu, Hongli and Song, Yuxuan and Wei, Xiangpeng and Zhou, Hao and Liu, Jingjing and Ma, Wei-Ying and Zhang, Ya-Qin and Yan, Lin and Wu, Yonghui and Wang, Mingxuan},
+  title={{DAPO}: An Open-Source {LLM} Reinforcement Learning System at Scale},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2503.14476}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2504.13837 (2504.13837v5; first posted 2025-04-18); venue: OpenReview: NeurIPS 2025 oral
+@inproceedings{yue2025doesrl,
+  author={Yang Yue and Zhiqi Chen and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang},
+  title={Does Reinforcement Learning Really Incentivize Reasoning Capacity in {LLMs} Beyond the Base Model?},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2504.13837}}
+
+% src: natcomm/lit/new_refs.bib -- new has the ACL 2025 publisher field; title braces {o1-like} and arXiv note from sweep
+% merge: changed title; set note
+@inproceedings{zeng2025revisiting,
+  author={Zeng, Zhiyuan and Cheng, Qinyuan and Yin, Zhangyue and Zhou, Yunhua and Qiu, Xipeng},
+  title={Revisiting the Test-Time Scaling of {o1-like} Models: Do they Truly Possess Test-Time Scaling Capabilities?},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={4651--4665},
+  publisher={Association for Computational Linguistics},
+  year={2025},
+  doi={10.18653/v1/2025.acl-long.232},
+  note={arXiv:2502.12215}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2507.07451 (2507.07451v1; first posted 2025-07-10); venue: arXiv only
+@article{zhang2025rlep,
+  author={Hongzhi Zhang and Jia Fu and Jingyuan Zhang and Kai Fu and Qi Wang and Fuzheng Zhang and Guorui Zhou},
+  title={{RLEP}: Reinforcement Learning with Experience Replay for {LLM} Reasoning},
+  journal={arXiv preprint arXiv:2507.07451},
+  year={2025}}
+
+% src: positioning.md section 6; arXiv API 2505.07961v3: title and 6 authors checked 2026-11-02
+@article{zhang2025slmreasoners,
+  author={Zhang, Xuechen and Huang, Zijian and Ni, Chenshun and Xiong, Ziyang and Chen, Jiasi and Oymak, Samet},
+  title={Making Small Language Models Efficient Reasoners: Intervention, Supervision, Reinforcement},
+  journal={arXiv preprint arXiv:2505.07961},
+  year={2025}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2511.13223 (2511.13223v1; first posted 2025-11-17); venue: OpenReview: NeurIPS 2025 poster
+@inproceedings{zhang2025tokensqueeze,
+  author={Yuxiang Zhang and Zhengxu Yu and Weihang Pan and Zhongming Jin and Qiang Fu and Deng Cai and Binbin Lin and Jieping Ye},
+  title={{TokenSqueeze}: Performance-Preserving Compression for Reasoning {LLMs}},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2511.13223}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2609.38699 (2609.38699v1; first posted 2026-09-30); venue: arXiv (NeurIPS 2026 MATH-AI workshop poster per arXiv comment)
+@article{zhang2026boundary,
+  author={Guilin Zhang and Ziqi Tan and Wulan Guo and Kai Zhao and Hongyun Yang and Mei Luo and Qi Ning and Feng Yang},
+  title={Budget Boundary Effects in Test-Time Mathematical Reasoning},
+  journal={arXiv preprint arXiv:2609.38699},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2604.01193 (2604.01193v2; first posted 2026-04-01); venue: arXiv only
+@article{zhang2026ssd,
+  author={Ruixiang Zhang and Richard He Bai and Huangjie Zheng and Navdeep Jaitly and Ronan Collobert and Yizhe Zhang},
+  title={Embarrassingly Simple Self-Distillation Improves Code Generation},
+  journal={arXiv preprint arXiv:2604.01193},
+  year={2026}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2402.04833 (2402.04833v2; first posted 2024-02-07); venue: arXiv comment: Accepted at ICML 2024
+@inproceedings{zhao2024longismore,
+  author={Hao Zhao and Maksym Andriushchenko and Francesco Croce and Nicolas Flammarion},
+  title={Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning},
+  year={2024},
+  note={arXiv:2402.04833}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2505.14604 (2505.14604v4; first posted 2025-05-20); venue: arXiv comment + OpenReview: NeurIPS 2025
+@inproceedings{zhao2025sbt,
+  author={Haoran Zhao and Yuchen Yan and Yongliang Shen and Haolei Xu and Wenqi Zhang and Kaitao Song and Jian Shao and Weiming Lu and Jun Xiao and Yueting Zhuang},
+  title={Let {LRMs} Break Free from Overthinking via Self-Braking Tuning},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025},
+  note={arXiv:2505.14604}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:2602.13407 (2602.13407v1; first posted 2026-02-13); venue: arXiv only (ICLR 2027 submission under review)
+@article{zhao2026onpolicy,
+  author={Anhao Zhao and Ziyang Chen and Junlong Tong and Yingqi Fan and Fanghua Ye and Shuhao Li and Yunpu Ma and Wenjie Li and Xiaoyu Shen},
+  title={On-Policy Supervised Fine-Tuning for Efficient Reasoning},
+  journal={arXiv preprint arXiv:2602.13407},
+  year={2026}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both
+% ICML 2026 (OpenReview MqWVrGh0vH); no PMLR page found on 2026-11-02.
+@inproceedings{zhong2026better,
+  author={Zhong, Qihuang and Ding, Liang and Liu, Juhua and Du, Bo and Rutkowski, Leszek and Tao, Dacheng},
+  title={Better, Faster: Harnessing Self-Improvement in Large Reasoning Models},
+  booktitle={International Conference on Machine Learning},
+  year={2026},
+  note={arXiv:2605.24998}}
+
+% ==============================================================================================================
+% GROUP 3 -- statistical methods for the requested analyses, not cited yet
+% ==============================================================================================================
+
+% src: natcomm/lit/new_refs.bib
+% Partial-conjunction tests (stats-design: "S > R in at least 3 of 4 settings").
+@article{benjamini2008screening,
+  author={Benjamini, Yoav and Heller, Ruth},
+  title={Screening for Partial Conjunction Hypotheses},
+  journal={Biometrics},
+  volume={64},
+  number={4},
+  pages={1215--1222},
+  year={2008},
+  doi={10.1111/j.1541-0420.2007.00984.x}}
+
+% src: natcomm/lit/new_refs.bib
+% Cochran's Q heterogeneity statistic.
+@article{cochran1954combination,
+  author={Cochran, William G.},
+  title={The Combination of Estimates from Different Experiments},
+  journal={Biometrics},
+  volume={10},
+  number={1},
+  pages={101--129},
+  year={1954},
+  doi={10.2307/3001666}}
+
+% src: natcomm/lit/new_refs.bib
+@article{frangakis2002principal,
+  author={Frangakis, Constantine E. and Rubin, Donald B.},
+  title={Principal Stratification in Causal Inference},
+  journal={Biometrics},
+  volume={58},
+  number={1},
+  pages={21--29},
+  year={2002},
+  doi={10.1111/j.0006-341X.2002.00021.x}}
+
+% src: natcomm/lit/new_refs.bib
+% Hartung--Knapp--Sidik--Jonkman interval (two papers).
+@article{hartung2001tests,
+  author={Hartung, Joachim and Knapp, Guido},
+  title={On tests of the overall treatment effect in meta-analysis with normally distributed responses},
+  journal={Statistics in Medicine},
+  volume={20},
+  number={12},
+  pages={1771--1782},
+  year={2001},
+  doi={10.1002/sim.791}}
+
+% src: natcomm/lit/new_refs.bib
+% The manuscript already uses Holm's correction and Stouffer's method without citing them.
+@article{holm1979simple,
+  author={Holm, Sture},
+  title={A Simple Sequentially Rejective Multiple Test Procedure},
+  journal={Scandinavian Journal of Statistics},
+  volume={6},
+  number={2},
+  pages={65--70},
+  year={1979},
+  note={JSTOR 4615733}}
+
+% src: natcomm/lit/new_refs.bib
+@article{kaplan1958nonparametric,
+  author={Kaplan, E. L. and Meier, Paul},
+  title={Nonparametric Estimation from Incomplete Observations},
+  journal={Journal of the American Statistical Association},
+  volume={53},
+  number={282},
+  pages={457--481},
+  year={1958},
+  doi={10.1080/01621459.1958.10501452}}
+
+% src: natcomm/lit/sweep_refs.bib
+% verified: arXiv:1503.02853 (1503.02853v1; first posted 2015-03-10); venue: arXiv journal-ref + DOI: Statistical Science 29(4):529-558 (2014)
+@article{keiding2014standardization,
+  author={Niels Keiding and David Clayton},
+  title={Standardization and Control for Confounding in Observational Studies: A Historical Perspective},
+  journal={Statistical Science},
+  volume={29},
+  number={4},
+  pages={529--558},
+  year={2014},
+  doi={10.1214/13-STS453},
+  note={arXiv:1503.02853}}
+
+% src: natcomm/lit/new_refs.bib
+@article{kenward1997small,
+  author={Kenward, Michael G. and Roger, James H.},
+  title={Small Sample Inference for Fixed Effects from Restricted Maximum Likelihood},
+  journal={Biometrics},
+  volume={53},
+  number={3},
+  pages={983--997},
+  year={1997},
+  doi={10.2307/2533558}}
+
+% src: natcomm/lit/new_refs.bib -- same metadata in both (Crossref 10.1080/01621459.1955.10501299)
+% The dF*meanQ + dQ*meanF split is a Kitagawa-type decomposition of a difference between two rates.
+@article{kitagawa1955components,
+  author={Kitagawa, Evelyn M.},
+  title={Components of a Difference Between Two Rates},
+  journal={Journal of the American Statistical Association},
+  volume={50},
+  number={272},
+  pages={1168--1194},
+  year={1955},
+  doi={10.1080/01621459.1955.10501299}}
+
+% src: natcomm/lit/new_refs.bib
+@article{mcnemar1947note,
+  author={McNemar, Quinn},
+  title={Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages},
+  journal={Psychometrika},
+  volume={12},
+  number={2},
+  pages={153--157},
+  year={1947},
+  doi={10.1007/BF02295996}}
+
+% src: natcomm/lit/new_refs.bib
+@article{paule1982consensus,
+  author={Paule, Robert C. and Mandel, John},
+  title={Consensus Values and Weighting Factors},
+  journal={Journal of Research of the National Bureau of Standards},
+  volume={87},
+  number={5},
+  pages={377--385},
+  year={1982},
+  doi={10.6028/jres.087.022}}
+
+% src: natcomm/lit/new_refs.bib
+% TOST equivalence test.
+@article{schuirmann1987comparison,
+  author={Schuirmann, Donald J.},
+  title={A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability},
+  journal={Journal of Pharmacokinetics and Biopharmaceutics},
+  volume={15},
+  number={6},
+  pages={657--680},
+  year={1987},
+  doi={10.1007/BF01068419}}
+
+% src: natcomm/lit/new_refs.bib
+@article{sidik2002simple,
+  author={Sidik, Kurex and Jonkman, Jeffrey N.},
+  title={A simple confidence interval for meta-analysis},
+  journal={Statistics in Medicine},
+  volume={21},
+  number={21},
+  pages={3153--3159},
+  year={2002},
+  doi={10.1002/sim.1262}}
+
+% src: natcomm/lit/new_refs.bib
+@book{stouffer1949american,
+  author={Stouffer, Samuel A. and Suchman, Edward A. and DeVinney, Leland C. and Star, Shirley A. and Williams, Jr., Robin M.},
+  title={The American Soldier, Vol. 1: Adjustment During Army Life},
+  publisher={Princeton University Press},
+  address={Princeton, NJ},
+  year={1949}}
+
+% Literature audit (Supplementary Note 3), added 2026-11-22; arXiv versions checked via arxiv.org/html
+@inproceedings{ma2025cotvalve,
+  author={Ma, Xinyin and Wan, Guangnian and Yu, Runpeng and Fang, Gongfan and Wang, Xinchao},
+  title={{CoT-Valve}: Length-Compressible Chain-of-Thought Tuning},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={6025--6035},
+  doi={10.18653/v1/2025.acl-long.300},
+  year={2025}}
+
+@article{yu2024distilling,
+  author={Yu, Ping and Xu, Jing and Weston, Jason and Kulikov, Ilia},
+  title={Distilling System 2 into System 1},
+  journal={arXiv preprint arXiv:2407.06023},
+  year={2024}}
+
+@inproceedings{liu2024skipsteps,
+  author={Liu, Tengxiao and Guo, Qipeng and Hu, Xiangkun and Jiayang, Cheng and Zhang, Yue and Qiu, Xipeng and Zhang, Zheng},
+  title={Can Language Models Learn to Skip Steps?},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={37},
+  year={2024}}
+
+@misc{deepscaler2025,
+  author={Luo, Michael and Tan, Sijun and Wong, Justin and Shi, Xiaoxiang and Tang, William Y. and Roongta, Manan and Cai, Colin and Luo, Jeffrey and Li, Li Erran and Popa, Raluca Ada and Stoica, Ion},
+  title={{DeepScaleR}: Surpassing {O1-Preview} with a 1.5{B} Model by Scaling {RL}},
+  howpublished={Agentica blog and model card, \url{https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview}},
+  year={2025}}

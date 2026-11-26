@@ -1,0 +1,64 @@
+{
+ "prereg": "paper_brevity/natcomm/PREREG_MATH4500.md",
+ "n_problems": 4500,
+ "n_excluded": 0,
+ "samples_per_arm": 8,
+ "B": 10000,
+ "seed": 0,
+ "arms": {
+  "S": {
+   "A": 72.756,
+   "F": 74.136,
+   "Q": 94.271,
+   "C": 2.867
+  },
+  "R": {
+   "A": 71.719,
+   "F": 72.917,
+   "Q": 94.282,
+   "C": 2.972
+  }
+ },
+ "tokens_per_sample": {
+  "S": 4362.1,
+  "R": 4611.5
+ },
+ "H1": {
+  "est": 1.0361,
+  "ci95": [
+   0.7472,
+   1.3333
+  ],
+  "P_boot": 0.0,
+  "P_signflip": 0.0001,
+  "supported": true
+ },
+ "H2": {
+  "finishing": {
+   "est": 1.1496,
+   "ci95": [
+    0.86,
+    1.4312
+   ],
+   "P_boot": 0.0
+  },
+  "quality": {
+   "est": -0.008,
+   "ci95": [
+    -0.1074,
+    0.0943
+   ],
+   "P_boot": 0.8942
+  },
+  "cut_credited_residual": {
+   "est": -0.1056,
+   "ci95": [
+    -0.3333,
+    0.125
+   ],
+   "P_boot": 0.3886
+  },
+  "tested": true,
+  "supported": true
+ }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when using this code or its experimental results."
+title: "Language models gain from shorter reasoning mostly by finishing in time"
+type: software
+authors:
+  - family-names: Capone
+    given-names: Cristiano
+    affiliation: "Quantitative Health Models and Bioinspired Technologies Lab, Istituto Superiore di Sanità"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/cristianocapone/shorter-reasoning"
+keywords:
+  - language models
+  - reasoning
+  - token budget
+  - forced answer
+  - self-training
+  - pre-registration

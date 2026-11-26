@@ -1,0 +1,7 @@
+deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562
+daman1209arora/alpha_0_DeepSeek-R1-Distill-Qwen-1.5B 9868f4779df5021138853db585f6082b6dea0e01
+daman1209arora/alpha_0.2_DeepSeek-R1-Distill-Qwen-1.5B 7aa5e9ec215f0e60292f02952568de0fe3d9b4b5
+Shiyu-Lab/DeepSeek-R1-Distill-Qwen-1.5B-thinkprune-iter2k 30891261206e5a62a3d5990d1a9ecb76dd6a4541
+nvidia/DLER-R1-1.5B-Research d0523143ce164e59a1161884398da4c00238d846
+agentica-org/DeepScaleR-1.5B-Preview e3f524ce413a296b4d388e7560dd5c82c1c56725
+l3lab/L1-Qwen-1.5B-Max 8d5eff2725e735114ec3949d1c5ae90d519fa4b6
